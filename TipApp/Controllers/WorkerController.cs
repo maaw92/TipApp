@@ -9,9 +9,10 @@ namespace TipApp.Controllers
 {
     class WorkerController
     {
-        public void AddWorker(Worker worker)
-        {
 
+        public Form1 AddWorker(Worker worker)
+        {
+            return new Form1();
         }
     }
 }
