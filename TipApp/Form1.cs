@@ -16,5 +16,10 @@ namespace TipApp
         {
             InitializeComponent();
         }
+
+        private void AddWorker_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
