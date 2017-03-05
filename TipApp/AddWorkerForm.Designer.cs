@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.LastName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.CancelButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstName
@@ -113,11 +114,21 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Nazwisko";
             // 
+            // CancelButton
+            // 
+            this.CancelButton.Location = new System.Drawing.Point(229, 92);
+            this.CancelButton.Name = "CancelButton";
+            this.CancelButton.Size = new System.Drawing.Size(111, 23);
+            this.CancelButton.TabIndex = 9;
+            this.CancelButton.Text = "Anuluj";
+            this.CancelButton.UseVisualStyleBackColor = true;
+            // 
             // AddWorkerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(371, 124);
+            this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.label3);
@@ -145,5 +156,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox LastName;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button CancelButton;
     }
 }
