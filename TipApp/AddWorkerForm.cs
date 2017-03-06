@@ -14,7 +14,7 @@ namespace TipApp
 {
     public partial class AddWorkerForm : Form
     {
-        WorkerController WorkerController = new WorkerController();
+        Controller WorkerController = new Controller();
 
         public AddWorkerForm()
         {
@@ -30,6 +30,7 @@ namespace TipApp
                 RegistrationNumber = VehicleNumber.Text
             };
             WorkerController.AddWorker(worker);
+            this.Close();
         }
     }
 }
